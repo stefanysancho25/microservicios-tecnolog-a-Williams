@@ -1,0 +1,61 @@
+nombre,codigo,precio,precioMayoreo,marca,descripcion,categoria,stockCantidad,stockMinimo,ubicacion
+Licuadora,PRD1000,40.84,34.71,SoundMax,Licuadora de alta calidad marca SoundMax,Electrodomésticos de cocina pequeños,45,14,SUCURSAL SUR
+Tostadora,PRD1001,94.62,80.43,CoolControl,Tostadora de alta calidad marca CoolControl,Electrodomésticos de cocina pequeños,44,15,BODEGA PRINCIPAL
+Cafetera,PRD1002,34.39,29.23,ElectroHome,Cafetera de alta calidad marca ElectroHome,Electrodomésticos de cocina pequeños,42,5,BODEGA PRINCIPAL
+Horno Eléctrico,PRD1003,91.57,77.83,SoundMax,Horno Eléctrico de alta calidad marca SoundMax,Electrodomésticos de cocina pequeños,41,11,SUCURSAL NORTE
+Freidora de Aire,PRD1004,32.15,27.33,ElectroHome,Freidora de Aire de alta calidad marca ElectroHome,Electrodomésticos de cocina pequeños,28,6,SUCURSAL NORTE
+Batidora,PRD1005,23.7,20.14,BeautyPro,Batidora de alta calidad marca BeautyPro,Electrodomésticos de cocina pequeños,42,11,ALMACÉN CENTRAL
+Sanduchera,PRD1006,28.4,24.14,TechGear,Sanduchera de alta calidad marca TechGear,Electrodomésticos de cocina pequeños,25,8,ALMACÉN CENTRAL
+Olla Arrocera,PRD1007,88.44,75.17,SmartLife,Olla Arrocera de alta calidad marca SmartLife,Electrodomésticos de cocina pequeños,19,5,SUCURSAL SUR
+Microondas,PRD1008,41.07,34.91,SoundMax,Microondas de alta calidad marca SoundMax,Electrodomésticos de cocina pequeños,22,8,SUCURSAL SUR
+Exprimidor,PRD1009,75.69,64.34,SoundMax,Exprimidor de alta calidad marca SoundMax,Electrodomésticos de cocina pequeños,10,5,ALMACÉN CENTRAL
+Waflera,PRD1010,68.82,58.5,ElectroHome,Waflera de alta calidad marca ElectroHome,Electrodomésticos de cocina pequeños,26,15,ALMACÉN CENTRAL
+Procesador de Alimentos,PRD1011,35.37,30.06,ElectroHome,Procesador de Alimentos de alta calidad marca ElectroHome,Electrodomésticos de cocina pequeños,41,6,ALMACÉN CENTRAL
+Secadora de Cabello,PRD1012,55.55,47.22,SoundMax,Secadora de Cabello de alta calidad marca SoundMax,Artículos de belleza electrónicos,23,6,ALMACÉN CENTRAL
+Plancha de Cabello,PRD1013,81.36,69.16,SoundMax,Plancha de Cabello de alta calidad marca SoundMax,Artículos de belleza electrónicos,14,10,BODEGA PRINCIPAL
+Rizador,PRD1014,68.37,58.11,SoundMax,Rizador de alta calidad marca SoundMax,Artículos de belleza electrónicos,44,15,ALMACÉN CENTRAL
+Cepillo Alisador,PRD1015,59.15,50.28,SoundMax,Cepillo Alisador de alta calidad marca SoundMax,Artículos de belleza electrónicos,42,10,ALMACÉN CENTRAL
+Depiladora,PRD1016,17.77,15.1,ElectroHome,Depiladora de alta calidad marca ElectroHome,Artículos de belleza electrónicos,10,13,SUCURSAL SUR
+Maquinilla de Afeitar,PRD1017,79.05,67.19,SmartLife,Maquinilla de Afeitar de alta calidad marca SmartLife,Artículos de belleza electrónicos,46,9,SUCURSAL SUR
+Lima Eléctrica,PRD1018,49.64,42.19,BeautyPro,Lima Eléctrica de alta calidad marca BeautyPro,Artículos de belleza electrónicos,10,8,ALMACÉN CENTRAL
+Cepillo Facial,PRD1019,82.51,70.13,TechGear,Cepillo Facial de alta calidad marca TechGear,Artículos de belleza electrónicos,31,6,SUCURSAL SUR
+Removedor de Puntos Negros,PRD1020,79.8,67.83,CoolControl,Removedor de Puntos Negros de alta calidad marca CoolControl,Artículos de belleza electrónicos,37,15,SUCURSAL SUR
+Masajeador Facial,PRD1021,67.13,57.06,SmartLife,Masajeador Facial de alta calidad marca SmartLife,Artículos de belleza electrónicos,12,14,SUCURSAL SUR
+Espejo con Luz LED,PRD1022,24.29,20.65,ElectroHome,Espejo con Luz LED de alta calidad marca ElectroHome,Artículos de belleza electrónicos,26,12,SUCURSAL SUR
+Vaporizador Facial,PRD1023,48.35,41.1,SmartLife,Vaporizador Facial de alta calidad marca SmartLife,Artículos de belleza electrónicos,44,13,SUCURSAL NORTE
+Cargador USB-C,PRD1024,65.9,56.02,TechGear,Cargador USB-C de alta calidad marca TechGear,Accesorios para teléfonos,26,7,SUCURSAL SUR
+Cable Lightning,PRD1025,83.8,71.23,BeautyPro,Cable Lightning de alta calidad marca BeautyPro,Accesorios para teléfonos,35,10,ALMACÉN CENTRAL
+Soporte para Celular,PRD1026,18.48,15.71,SmartLife,Soporte para Celular de alta calidad marca SmartLife,Accesorios para teléfonos,40,11,SUCURSAL NORTE
+Power Bank,PRD1027,94.82,80.6,CoolControl,Power Bank de alta calidad marca CoolControl,Accesorios para teléfonos,16,9,SUCURSAL SUR
+Lámpara LED USB,PRD1028,73.78,62.71,CoolControl,Lámpara LED USB de alta calidad marca CoolControl,Accesorios para teléfonos,28,8,ALMACÉN CENTRAL
+Adaptador OTG,PRD1029,85.9,73.02,SoundMax,Adaptador OTG de alta calidad marca SoundMax,Accesorios para teléfonos,50,6,SUCURSAL NORTE
+Audífonos Bluetooth,PRD1030,50.77,43.15,CoolControl,Audífonos Bluetooth de alta calidad marca CoolControl,Accesorios para teléfonos,25,5,ALMACÉN CENTRAL
+Protector de Pantalla,PRD1031,14.66,12.46,SoundMax,Protector de Pantalla de alta calidad marca SoundMax,Accesorios para teléfonos,25,14,SUCURSAL NORTE
+Funda Antigolpes,PRD1032,76.81,65.29,SmartLife,Funda Antigolpes de alta calidad marca SmartLife,Accesorios para teléfonos,47,8,SUCURSAL NORTE
+Lente Clip,PRD1033,40.41,34.35,SmartLife,Lente Clip de alta calidad marca SmartLife,Accesorios para teléfonos,11,5,ALMACÉN CENTRAL
+Anillo Soporte,PRD1034,17.19,14.61,TechGear,Anillo Soporte de alta calidad marca TechGear,Accesorios para teléfonos,40,5,BODEGA PRINCIPAL
+Cargador Inalámbrico,PRD1035,91.5,77.77,TechGear,Cargador Inalámbrico de alta calidad marca TechGear,Accesorios para teléfonos,38,12,BODEGA PRINCIPAL
+Parlante Bluetooth,PRD1036,89.25,75.86,TechGear,Parlante Bluetooth de alta calidad marca TechGear,Parlantes,37,6,ALMACÉN CENTRAL
+Parlante Portátil,PRD1037,47.28,40.19,SoundMax,Parlante Portátil de alta calidad marca SoundMax,Parlantes,42,10,SUCURSAL SUR
+Parlante con Luces LED,PRD1038,23.16,19.69,SoundMax,Parlante con Luces LED de alta calidad marca SoundMax,Parlantes,36,7,BODEGA PRINCIPAL
+Parlante de Torre,PRD1039,72.5,61.62,BeautyPro,Parlante de Torre de alta calidad marca BeautyPro,Parlantes,43,12,SUCURSAL NORTE
+Mini Parlante,PRD1040,16.25,13.81,CoolControl,Mini Parlante de alta calidad marca CoolControl,Parlantes,21,6,ALMACÉN CENTRAL
+Parlante USB,PRD1041,75.83,64.46,SmartLife,Parlante USB de alta calidad marca SmartLife,Parlantes,39,6,ALMACÉN CENTRAL
+Parlante Recargable,PRD1042,74.03,62.93,SmartLife,Parlante Recargable de alta calidad marca SmartLife,Parlantes,23,12,SUCURSAL NORTE
+Parlante Impermeable,PRD1043,90.26,76.72,TechGear,Parlante Impermeable de alta calidad marca TechGear,Parlantes,46,5,BODEGA PRINCIPAL
+Parlante con Radio FM,PRD1044,36.42,30.96,SmartLife,Parlante con Radio FM de alta calidad marca SmartLife,Parlantes,16,13,SUCURSAL NORTE
+Parlante Karaoke,PRD1045,83.32,70.82,CoolControl,Parlante Karaoke de alta calidad marca CoolControl,Parlantes,17,14,BODEGA PRINCIPAL
+Parlante Inteligente,PRD1046,64.55,54.87,CoolControl,Parlante Inteligente de alta calidad marca CoolControl,Parlantes,26,6,ALMACÉN CENTRAL
+Parlante Retro,PRD1047,72.79,61.87,SoundMax,Parlante Retro de alta calidad marca SoundMax,Parlantes,25,5,BODEGA PRINCIPAL
+Control TV LG,PRD1048,64.76,55.05,SoundMax,Control TV LG de alta calidad marca SoundMax,Controles para televisores y aires acondicionados,45,9,ALMACÉN CENTRAL
+Control TV Samsung,PRD1049,36.32,30.87,TechGear,Control TV Samsung de alta calidad marca TechGear,Controles para televisores y aires acondicionados,32,7,SUCURSAL NORTE
+Control TV Sony,PRD1050,19.49,16.57,ElectroHome,Control TV Sony de alta calidad marca ElectroHome,Controles para televisores y aires acondicionados,33,15,SUCURSAL NORTE
+Control Universal,PRD1051,14.34,12.19,ElectroHome,Control Universal de alta calidad marca ElectroHome,Controles para televisores y aires acondicionados,30,9,ALMACÉN CENTRAL
+Control Smart TV,PRD1052,47.27,40.18,TechGear,Control Smart TV de alta calidad marca TechGear,Controles para televisores y aires acondicionados,19,13,SUCURSAL NORTE
+Control de Aire LG,PRD1053,92.29,78.45,TechGear,Control de Aire LG de alta calidad marca TechGear,Controles para televisores y aires acondicionados,45,13,SUCURSAL NORTE
+Control de Aire Samsung,PRD1054,87.15,74.08,ElectroHome,Control de Aire Samsung de alta calidad marca ElectroHome,Controles para televisores y aires acondicionados,40,14,SUCURSAL NORTE
+Control de Aire Midea,PRD1055,72.74,61.83,CoolControl,Control de Aire Midea de alta calidad marca CoolControl,Controles para televisores y aires acondicionados,36,15,ALMACÉN CENTRAL
+Control Universal Aire,PRD1056,85.18,72.4,BeautyPro,Control Universal Aire de alta calidad marca BeautyPro,Controles para televisores y aires acondicionados,41,8,ALMACÉN CENTRAL
+Control TV Philips,PRD1057,37.29,31.7,BeautyPro,Control TV Philips de alta calidad marca BeautyPro,Controles para televisores y aires acondicionados,10,5,ALMACÉN CENTRAL
+Control TV RCA,PRD1058,75.05,63.79,CoolControl,Control TV RCA de alta calidad marca CoolControl,Controles para televisores y aires acondicionados,15,15,BODEGA PRINCIPAL
+Control TV Panasonic,PRD1059,68.03,57.83,TechGear,Control TV Panasonic de alta calidad marca TechGear,Controles para televisores y aires acondicionados,37,6,SUCURSAL NORTE

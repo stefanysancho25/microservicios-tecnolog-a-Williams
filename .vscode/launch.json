@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MsvcProductoApplication<msvc_producto>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "tecnologia.de.williams.msvc_producto.MsvcProductoApplication",
+            "projectName": "msvc_producto",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsvcOrdendepedidosApplication<msvc_ordendepedidos>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "microsvwillms.msvc_ordendepedidos.MsvcOrdendepedidosApplication",
+            "projectName": "msvc_ordendepedidos",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=60323 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=msvc_ordendepedidos"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaServerApplication<eureka_server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.eureka_server.EurekaServerApplication",
+            "projectName": "eureka_server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
