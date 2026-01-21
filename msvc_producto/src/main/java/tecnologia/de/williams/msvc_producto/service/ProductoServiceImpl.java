@@ -16,7 +16,7 @@ import tecnologia.de.williams.msvc_producto.repository.ProductoRepository;
 @Service
 public class ProductoServiceImpl implements ProductoService {
 
-   @Autowired
+     @Autowired
     private ProductoRepository productoRepository;
 
     @Override
@@ -149,5 +149,9 @@ public class ProductoServiceImpl implements ProductoService {
     public String importarProductosDesdeArchivo(MultipartFile file) {
     
         throw new UnsupportedOperationException("Unimplemented method 'importarProductosDesdeArchivo'");
+    }
+
+    public ProductoRepository getProductoRepository() {
+        return productoRepository;
     }
 }

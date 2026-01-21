@@ -1,0 +1,17 @@
+spring:
+    cloud:
+        gateway:
+          server:
+            webFlux:
+             routes:
+                - id: productos-service
+                  uri: lb://msvc-producto
+                  predicates:
+                    - Path=/api/productos/**
+
+                - id: ordendepedido-service
+                  uri: lb://msvc-ordendepedidos
+                  predicates:
+                    - Path=/api/ordenes/**
+
+

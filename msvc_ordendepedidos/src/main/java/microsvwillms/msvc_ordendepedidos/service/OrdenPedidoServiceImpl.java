@@ -54,24 +54,28 @@ public class OrdenPedidoServiceImpl implements OrdenPedidoService {
         }
         return repository.save(orden);
     }
-        @Override
-        public OrdenPedido actualizarOrden(Long id, OrdenPedido orden) {
-            throw new UnsupportedOperationException("Not supported yet.");
-        }
+       @Override
+       public List<OrdenPedido> listarTodas() {
+        return repository.findAll();
+    }
 
-        @Override
-        public OrdenPedido obtenerPorId(Long id) {
-            throw new UnsupportedOperationException("Not supported yet.");
-        }
+          @Override
+         public OrdenPedido obtenerPorId(Long id) {
+           return repository.findById(id)
+            .orElseThrow(() -> new RuntimeException("Orden no encontrada con id " + id));
+    }
 
-        @Override
-        public List<OrdenPedido> listarTodas() {
-            throw new UnsupportedOperationException("Not supported yet.");
-        }
+          @Override
+         public OrdenPedido actualizarOrden(Long id, OrdenPedido orden) {
+            OrdenPedido existente = obtenerPorId(id);
+            existente.setCodigo(orden.getCodigo());
+            existente.setCliente(orden.getCliente());
+            existente.setEstado(orden.getEstado());
+            return repository.save(existente);
+    }
 
-        @Override
-        public void eliminarOrden(Long id) {
-            throw new UnsupportedOperationException("Not supported yet.");
-        }
-
+         @Override
+         public void eliminarOrden(Long id) {
+         repository.deleteById(id);
+    }
 }

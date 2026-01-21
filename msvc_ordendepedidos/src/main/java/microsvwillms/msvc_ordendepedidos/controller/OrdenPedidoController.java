@@ -43,11 +43,19 @@ public class OrdenPedidoController {
                     "Orden creada correctamente",
                     OrdenPedidoMapper.toResponseDTO(creada)));
 }
+@GetMapping
+public ResponseEntity<ApiResponse<List<OrdenPedidoResponseDTO>>> listar() {
 
-    @GetMapping
-    public List<OrdenPedido> listar() {
-        return service.listarTodas();
-    }
+    List<OrdenPedidoResponseDTO> ordenes = service.listarTodas()
+            .stream()
+            .map(OrdenPedidoMapper::toResponseDTO)
+            .toList();
+
+    return ResponseEntity.ok(
+        new ApiResponse<>( true,"Órdenes registradas",ordenes) 
+    );
+}
+
 
     @GetMapping("/{id}")
     public OrdenPedido obtenerPorId(@PathVariable Long id) {
